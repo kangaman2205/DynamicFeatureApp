@@ -1,0 +1,4 @@
+include ':app'
+include ':sampleModule'
+project(':sampleModule').projectDir = new File('DynamicFeature/sampleModule')
+rootProject.name = "DynamicFeatureApp"
